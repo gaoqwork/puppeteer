@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "baidu-aip-sdk": "^2.3.9",
+    "puppeteer": "^1.16.0"
+  }
+}
