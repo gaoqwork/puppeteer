@@ -4,7 +4,7 @@ const mergePdfComm = require('./mergePdfCommon');
 const mergePdfConfig = require('./mergePdfConfig');
 let AipOcrClient = require("baidu-aip-sdk").ocr;
 // 新建一个对象，建议只保存一个对象调用服务接口
-let client = new AipOcrClient('16212625','Yhu2R9SSAHxzrObWEMi4sPZK','YvLU9z5XCjqgFmtoqFUNGpgrsuQ7uN71');
+let client = new AipOcrClient('******','******','******');
 
 (async () => {
     /*const browser = await puppeteer.launch({
