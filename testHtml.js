@@ -117,7 +117,7 @@ let client = new AipOcrClient('16212625','Yhu2R9SSAHxzrObWEMi4sPZK','YvLU9z5XCjq
         await mergePdfComm.getMergePDF(page);
  }
  await browser.close();
-})();
+})(); 
 
 
 
