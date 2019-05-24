@@ -3,7 +3,7 @@ const fs = require('fs');
 const puppeteer = require('puppeteer');
 var AipOcrClient = require("baidu-aip-sdk").ocr;
 // 新建一个对象，建议只保存一个对象调用服务接口
-var client = new AipOcrClient('16212625','Yhu2R9SSAHxzrObWEMi4sPZK','YvLU9z5XCjqgFmtoqFUNGpgrsuQ7uN71');
+var client = new AipOcrClient('******','******','******');
 
 
 (async () => {
