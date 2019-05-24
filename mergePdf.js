@@ -9,7 +9,7 @@ let pdfUrls = ["https://www.interotc.com.cn/portal/newportal/index.html",
                 "https://derivatives.interotc.com.cn/cmis-web/a/index",
                 "https://www.interotc.com.cn/portal/newportal/xxfb.html"];
 
-(async () => {
+(async () => { 
     const browser = await puppeteer.launch();
     const page = await browser.newPage();
     await page.emulateMedia("screen");//改变页面的css媒体类型。支持的值仅包括 'screen', 'print' 和 null。传 null 禁用媒体模拟
