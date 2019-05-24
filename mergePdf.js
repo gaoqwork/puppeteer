@@ -39,4 +39,4 @@ const mergeMultiplePDF = (pdfFiles) => {
             resolve();
         });
     });
-};
+}; 
