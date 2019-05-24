@@ -3,7 +3,7 @@ const fs = require('fs');
 const mergePdfConfig = require('./mergePdfConfig');
 const inputUsername = (page) => {
     return new Promise((resolve, reject) => {
-        page.type('.loginMain #username', checkParam ().username,{
+        page.type('.loginMain #username', checkParam ().username,{ 
             delay: 50, // 控制 keypress 也就是每个字母输入的间隔
         });
         resolve();
