@@ -1,0 +1,7 @@
+{
+  "environment":[
+    {"name":"105","run":"false","url":"http://172.16.101.105","username":"","password":""},
+    {"name":"200","run":"false","url":"http://192.168.80.200","username":"","password":""},
+    {"name":"produce","run":"true","url":"https://www.interotc.com.cn","username":"888888034","password":"Aaaaaaa1"}
+  ]
+}
